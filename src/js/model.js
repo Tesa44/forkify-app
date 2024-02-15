@@ -120,7 +120,7 @@ export const uploadRecipe = async function (newRecipe) {
         entry => entry[0].startsWith('ingredient') && entry[1] !== ''
       )
       .map(ing => {
-        ingArr = ing[1].split(',').map(el => el.trim());
+        const ingArr = ing[1].split(',').map(el => el.trim());
         if (ingArr.length !== 3)
           throw new Error(
             'wrong ingredient format! Please use the correct format'
