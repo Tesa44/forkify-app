@@ -1,5 +1,5 @@
 import icons from 'url:../../img/icons.svg'; //url: trzeba dopisać do wszystkiego co nie jest plikiem programowalnym
-import Fraction from 'fractional'; //Nie trzeba określać żadnej ścieżki dla bibliotek
+//import Fraction from 'fractional'; //Nie trzeba określać żadnej ścieżki dla bibliotek
 import View from './View.js';
 import { MAX_SERVINGS } from '../config.js';
 import fracty from 'fracty';
